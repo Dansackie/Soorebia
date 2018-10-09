@@ -1,0 +1,324 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  border:none;
+  margin: 0;
+  padding: 0; 
+}
+body {
+  font-family: 'Merriweather','Roboto', sans-serif, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.1;
+  color:#ffffff;
+}
+
+
+
+.navbar{
+    background-color: #460c10 !important;
+    color: #ffffff;
+    width: 100%;   
+}
+.navbar-nav{
+    margin-left: 10em;
+}
+.nav-item{
+    color: #ffffff;
+    font-size: 1.5em;
+    float: right!important;
+    margin-right: 2em;
+    margin-top: 0.5em
+}
+a:hover{
+    color:#E1D8C9;
+}
+.navbar-toggler{
+    border-color: rgb(255, 255, 255)!important;
+    padding: .25rem .75rem;
+    line-height: 1;
+    border: 1px solid;
+    border-radius: .25rem;
+}
+.navbar-toggler-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1em;
+    vertical-align: middle;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    border-color: red;
+}
+.collapse{
+    text-align: center;
+}
+.navbar-brand{
+    color: #ffffff;
+    margin-right:0;
+}
+#brand{
+     margin-top:0;
+     padding-top: 0;
+     padding-left: 1em;
+     margin-left: 0;
+     margin-right: 0;
+     width: 7em;
+}
+
+
+
+header.masthead{
+    background-image: url("../Images/jumbo.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    border-radius: 0px;
+    height: 50em;
+    background-color: #E1D8C9;
+    background-position: center;
+}
+.headtext{
+    padding-top: 28em;
+    color: white;
+}
+.social{
+    color:white;
+    margin-top: 1em;
+    margin-left: 5em;
+}
+@media(max-width: 1024px){
+    .social{
+        color:white;
+        margin-top: 0.5em;
+        margin-left: 0;
+    }  
+}
+.fa{
+    padding: 0.5em;
+    color:white;
+    padding-top: 0;
+    margin-top: 0
+}
+.btn-primary{
+    background-color: #460c10;
+    border-radius: 10em;
+    border:none;
+}
+.btn-primary:hover{
+    background-color:#E1D8C9;
+    color:#460c10;
+}
+
+
+
+.Biography{
+    background-image: url("../Images/section2.jpg");
+   /** background-color: #460c10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px;
+    height: 43em;
+    background-position: center**/
+}
+.square{
+    border: 2px solid;
+    position: absolute;
+    border-color:#B9283B !important;
+    border-radius: 1em;
+    height: 35em;
+    width: 25em;
+    margin-top: 3em;
+    margin-left: 0;
+    margin-bottom: 4em;
+}
+@media(max-width: 768px){
+    .square{
+        border: 2px solid;
+        position: absolute;
+        border-color:#B9283B !important;
+        border-radius: 1em;
+        height: 35em;
+        width: 20em;
+        margin-top: 3em;
+        margin-left: 10em;
+        margin-bottom: 4em;
+    }
+}
+@media(max-width: 425px){
+    .square::after{
+        border: 2px solid;
+        position: absolute;
+        border-color:#B9283B !important;
+        border-radius: 1em;
+        height: 35em;
+        width: 20em;
+        margin-top: 3em;
+        margin-left: auto;;
+        margin-bottom: 4em;
+    }
+}
+.shape img{
+    float: right;
+    position: relative;
+    height: 35em;
+    border-radius:15px;
+    margin-bottom: 4em;
+    margin-top: 4.5em;
+    margin-right: 8em;
+    box-shadow: rgb(0, 0, 0);   
+}
+@media(max-width: 768px){
+    .shape img{
+        float: right;
+        position: relative;
+        height: 35em;
+        width: 20;
+        border-radius:15px;
+        margin-bottom: 4em;
+        margin-top: 4.5em;
+        box-shadow: rgb(0, 0, 0);   
+    }
+}
+@media(max-width: 425px){
+    .shape img :after{
+        float: right;
+        position: relative;
+        height: 35em;
+        width: 20;
+        border-radius:15px;
+        margin-bottom: 4em;
+        margin-top: 4.5em;
+        margin-right: auto;
+        box-shadow: rgb(0, 0, 0);   
+    }
+}
+.bio{
+    margin-top: 7em;
+    font-size:20px;
+    color: rgb(255, 255, 255);
+}
+@media(max-width: 768px){
+    .bio{
+        margin-top:0;
+        font-size:20px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+}
+
+.bio h1{
+    margin-bottom: 1em;
+    margin-left: 2em;
+    font-size:50px;
+}
+.bio p{
+    font-size: 25px;
+}
+
+
+
+
+
+.songs{
+    background-image: url("../Images/soorebia3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    border-radius: 0px;
+    height: 43em;
+    background-position: center
+}
+.dis{
+    padding-top: 2em;
+    color: #E1D8C9;
+}
+.dis h1{ 
+    font-weight: 900px;
+}
+.square1{
+    border: 2px solid;
+    position: absolute;
+    border-color:#B9283B !important;
+    width:15em;
+    height: 8em;
+    border-radius: 1em;
+    margin-top: 5em;
+    margin-left:5em;
+}
+video{
+    float: right;
+    position: relative;
+    width: 15em;
+    margin-top: 2em;
+    margin-right: 12em;
+}
+.track{
+    margin-left:5em;
+    color:  #E1D8C9;
+}
+.track h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1em
+}
+.track h2{
+    font-size: 20px;
+}
+.musicI{
+    margin-top:5em;
+    margin-left: 5em;
+    font-size: 14px;
+}
+.soundlink{
+    background-color:#460c10;
+    border-radius: 0.3em;
+    height: 1.3em;
+    width: 1.5em;
+}
+.soundlink{
+    background-color:#460c10;
+    border-radius: 0.3em;
+    height: 1.3em;
+    width: 1.5em;
+}
+.soundlink{
+    background-color:#460c10;
+    border-radius: 0.3em;
+    height: 1.3em;
+    width: 1.5em;
+}
+.soundlink{
+    background-color:#460c10;
+    border-radius: 0.3em;
+    height: 1.5em;
+    width: 2em;
+}
+
+.soundcloud{
+    margin-top: 5em;
+}
+
+.youtubev{
+    margin-top: 6em;
+    margin-left: 7em;
+    position: relative;
+}
+
+
+
+.footer{
+    background-color: #460c10;
+}
+.face{
+    padding:0;
+    margin: 0;
+}
+.socialLinks{
+    margin-top:4em;
+    font-size:13px;
+}
+.Address{
+    margin-top:3em;
+}
+.contact{
+    margin-top:2em;
+}
