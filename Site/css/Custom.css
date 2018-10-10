@@ -239,35 +239,7 @@ video{
 .track h2{
     font-size: 20px;
 }
-.musicI{
-    margin-top:5em;
-    margin-left: 5em;
-    font-size: 14px;
-}
-.soundlink{
-    background-color:#460c10;
-    border-radius: 0.3em;
-    height: 1.3em;
-    width: 1.5em;
-}
-.soundlink{
-    background-color:#460c10;
-    border-radius: 0.3em;
-    height: 1.3em;
-    width: 1.5em;
-}
-.soundlink{
-    background-color:#460c10;
-    border-radius: 0.3em;
-    height: 1.3em;
-    width: 1.5em;
-}
-.soundlink{
-    background-color:#460c10;
-    border-radius: 0.3em;
-    height: 1.5em;
-    width: 2em;
-}
+
 
 .soundcloud{
     margin-top: 5em;
@@ -346,4 +318,18 @@ video{
     margin-bottom: 0.5em;
     /*margin-left: 2em;
 */    font-size:50px;
+}
+
+.btn-success a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.musicI {
+    margin-top:5em;
+    margin-left: 5em;
+}
+
+.musicI .fa:hover{
+    color: #e1d8c9;
 }
