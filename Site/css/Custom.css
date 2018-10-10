@@ -99,7 +99,9 @@ header.masthead{
     height: 43em;
     background-position: center**/
 }
-.square{
+
+
+/*.square{
     border: 2px solid;
     position: absolute;
     border-color:#B9283B !important;
@@ -109,7 +111,7 @@ header.masthead{
     margin-top: 3em;
     margin-left: 0;
     margin-bottom: 4em;
-}
+}*/
 /*@media(max-width: 768px){
     .square{
         border: 2px solid;
@@ -210,7 +212,7 @@ header.masthead{
 .dis h1{ 
     font-weight: 900px;
 }
-.square1{
+/*.square1{
     border: 2px solid;
     position: absolute;
     border-color:#B9283B !important;
@@ -219,7 +221,7 @@ header.masthead{
     border-radius: 1em;
     margin-top: 5em;
     margin-left:5em;
-}
+}*/
 video{
     float: right;
     position: relative;
@@ -227,10 +229,7 @@ video{
     margin-top: 2em;
     margin-right: 12em;
 }
-.track{
-    margin-left:5em;
-    color:  #E1D8C9;
-}
+
 .track h1{
     text-align: center;
     font-weight: bold;
@@ -243,11 +242,6 @@ video{
 
 
 
-.youtubev{
-    margin-top: 6em;
-    margin-left: 7em;
-    position: relative;
-}
 
 
 
@@ -325,7 +319,7 @@ video{
 
 .musicI {
     margin-top:5em;
-    margin-left: 5em;
+  /*  margin-left: 5em;*/
 }
 
 .musicI .fa:hover {
@@ -334,4 +328,19 @@ video{
 
 .soundcloud {
     margin-top: 4em;
+}
+
+@media (max-width: 991.98px) {
+    .footer {
+        margin-top: 26.9rem !important;
+    }
+}
+
+.youtubev{
+    margin-top: 6em;
+    position: relative;
+}
+
+.track{
+    color:  #E1D8C9;
 }
