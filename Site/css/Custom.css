@@ -241,9 +241,7 @@ video{
 }
 
 
-.soundcloud{
-    margin-top: 5em;
-}
+
 
 .youtubev{
     margin-top: 6em;
@@ -330,6 +328,10 @@ video{
     margin-left: 5em;
 }
 
-.musicI .fa:hover{
+.musicI .fa:hover {
     color: #e1d8c9;
+}
+
+.soundcloud {
+    margin-top: 4em;
 }
