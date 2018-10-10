@@ -22,23 +22,11 @@ body {
 .navbar-nav{
     margin-left: 10em;
 }
-.nav-item{
-    color: #ffffff;
-    font-size: 1.5em;
-    float: right!important;
-    margin-right: 2em;
-    margin-top: 0.5em
-}
+
 a:hover{
     color:#E1D8C9;
 }
-.navbar-toggler{
-    border-color: rgb(255, 255, 255)!important;
-    padding: .25rem .75rem;
-    line-height: 1;
-    border: 1px solid;
-    border-radius: .25rem;
-}
+
 .navbar-toggler-icon{
     display: inline-block;
     width: 1.5em;
@@ -76,10 +64,7 @@ header.masthead{
     background-color: #E1D8C9;
     background-position: center;
 }
-.headtext{
-    padding-top: 28em;
-    color: white;
-}
+
 .social{
     color:white;
     margin-top: 1em;
@@ -92,12 +77,7 @@ header.masthead{
         margin-left: 0;
     }  
 }
-.fa{
-    padding: 0.5em;
-    color:white;
-    padding-top: 0;
-    margin-top: 0
-}
+
 .btn-primary{
     background-color: #460c10;
     border-radius: 10em;
@@ -119,7 +99,9 @@ header.masthead{
     height: 43em;
     background-position: center**/
 }
-.square{
+
+
+/*.square{
     border: 2px solid;
     position: absolute;
     border-color:#B9283B !important;
@@ -129,8 +111,8 @@ header.masthead{
     margin-top: 3em;
     margin-left: 0;
     margin-bottom: 4em;
-}
-@media(max-width: 768px){
+}*/
+/*@media(max-width: 768px){
     .square{
         border: 2px solid;
         position: absolute;
@@ -155,7 +137,7 @@ header.masthead{
         margin-left: auto;;
         margin-bottom: 4em;
     }
-}
+}*/
 .shape img{
     float: right;
     position: relative;
@@ -205,11 +187,7 @@ header.masthead{
     }
 }
 
-.bio h1{
-    margin-bottom: 1em;
-    margin-left: 2em;
-    font-size:50px;
-}
+
 .bio p{
     font-size: 25px;
 }
@@ -234,7 +212,7 @@ header.masthead{
 .dis h1{ 
     font-weight: 900px;
 }
-.square1{
+/*.square1{
     border: 2px solid;
     position: absolute;
     border-color:#B9283B !important;
@@ -243,7 +221,7 @@ header.masthead{
     border-radius: 1em;
     margin-top: 5em;
     margin-left:5em;
-}
+}*/
 video{
     float: right;
     position: relative;
@@ -251,10 +229,7 @@ video{
     margin-top: 2em;
     margin-right: 12em;
 }
-.track{
-    margin-left:5em;
-    color:  #E1D8C9;
-}
+
 .track h1{
     text-align: center;
     font-weight: bold;
@@ -263,45 +238,10 @@ video{
 .track h2{
     font-size: 20px;
 }
-.musicI{
-    margin-top:5em;
-    margin-left: 5em;
-    font-size: 14px;
-}
-.soundlink{
-    background-color:#460c10;
-    border-radius: 0.3em;
-    height: 1.3em;
-    width: 1.5em;
-}
-.soundlink{
-    background-color:#460c10;
-    border-radius: 0.3em;
-    height: 1.3em;
-    width: 1.5em;
-}
-.soundlink{
-    background-color:#460c10;
-    border-radius: 0.3em;
-    height: 1.3em;
-    width: 1.5em;
-}
-.soundlink{
-    background-color:#460c10;
-    border-radius: 0.3em;
-    height: 1.5em;
-    width: 2em;
-}
 
-.soundcloud{
-    margin-top: 5em;
-}
 
-.youtubev{
-    margin-top: 6em;
-    margin-left: 7em;
-    position: relative;
-}
+
+
 
 
 
@@ -312,13 +252,96 @@ video{
     padding:0;
     margin: 0;
 }
-.socialLinks{
-    margin-top:4em;
-    font-size:13px;
-}
+
 .Address{
     margin-top:3em;
 }
 .contact{
     margin-top:2em;
+}
+
+
+
+/********************MY CSS*****************/
+
+.fa-circle:before {
+    color: #460c10;
+}
+
+.nav-item {
+    color: #ffffff;
+    margin-right: 2em;
+}
+
+/*.navbar-toggler{
+    border-color: rgb(255, 255, 255)!important;
+    padding: .25rem .75rem;
+    line-height: 1;
+    border: 1px solid;
+    border-radius: .25rem;
+}*/
+
+.play .fa {
+    padding: 0.5em;
+    color: #fff;
+    text-decoration: none;
+/*    padding-top: 0;
+    margin-top: 0*/
+}
+
+.play {
+    margin-bottom: 6px;
+}
+
+/*.play .fa:hover {
+    color: #460c10;
+}
+*/
+
+.headtext {
+    padding-top: 22em;
+    color: white;
+}
+
+.bio h1{
+    margin-bottom: 0.5em;
+    /*margin-left: 2em;
+*/    font-size:50px;
+}
+
+.btn-success a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.musicI {
+    margin-top:5em;
+  /*  margin-left: 5em;*/
+}
+
+.musicI .fa:hover {
+    color: #e1d8c9;
+}
+
+.soundcloud {
+    margin-top: 4em;
+}
+
+@media (max-width: 991.98px) {
+    .footer {
+        margin-top: 26.9rem !important;
+    }
+}
+
+.youtubev {
+    margin-top: 6em;
+    position: relative;
+}
+
+.track {
+    color:  #E1D8C9;
+}
+
+.socialLinks {
+    margin-top: 4em;
 }
