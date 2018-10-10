@@ -64,10 +64,7 @@ header.masthead{
     background-color: #E1D8C9;
     background-position: center;
 }
-.headtext{
-    padding-top: 28em;
-    color: white;
-}
+
 .social{
     color:white;
     margin-top: 1em;
@@ -80,12 +77,7 @@ header.masthead{
         margin-left: 0;
     }  
 }
-.fa{
-    padding: 0.5em;
-    color:white;
-    padding-top: 0;
-    margin-top: 0
-}
+
 .btn-primary{
     background-color: #460c10;
     border-radius: 10em;
@@ -118,7 +110,7 @@ header.masthead{
     margin-left: 0;
     margin-bottom: 4em;
 }
-@media(max-width: 768px){
+/*@media(max-width: 768px){
     .square{
         border: 2px solid;
         position: absolute;
@@ -143,7 +135,7 @@ header.masthead{
         margin-left: auto;;
         margin-bottom: 4em;
     }
-}
+}*/
 .shape img{
     float: right;
     position: relative;
@@ -193,11 +185,7 @@ header.masthead{
     }
 }
 
-.bio h1{
-    margin-bottom: 1em;
-    margin-left: 2em;
-    font-size:50px;
-}
+
 .bio p{
     font-size: 25px;
 }
@@ -319,7 +307,7 @@ video{
     color: #460c10;
 }
 
-.nav-item{
+.nav-item {
     color: #ffffff;
     margin-right: 2em;
 }
@@ -331,3 +319,31 @@ video{
     border: 1px solid;
     border-radius: .25rem;
 }*/
+
+.play .fa {
+    padding: 0.5em;
+    color: #fff;
+    text-decoration: none;
+/*    padding-top: 0;
+    margin-top: 0*/
+}
+
+.play {
+    margin-bottom: 6px;
+}
+
+/*.play .fa:hover {
+    color: #460c10;
+}
+*/
+
+.headtext {
+    padding-top: 22em;
+    color: white;
+}
+
+.bio h1{
+    margin-bottom: 0.5em;
+    /*margin-left: 2em;
+*/    font-size:50px;
+}
