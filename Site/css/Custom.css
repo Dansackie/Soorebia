@@ -252,10 +252,7 @@ video{
     padding:0;
     margin: 0;
 }
-.socialLinks{
-    margin-top:4em;
-    font-size:13px;
-}
+
 .Address{
     margin-top:3em;
 }
@@ -336,11 +333,15 @@ video{
     }
 }
 
-.youtubev{
+.youtubev {
     margin-top: 6em;
     position: relative;
 }
 
-.track{
+.track {
     color:  #E1D8C9;
+}
+
+.socialLinks {
+    margin-top: 4em;
 }
